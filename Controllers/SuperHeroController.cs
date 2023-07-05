@@ -11,6 +11,18 @@ namespace SuperHeroAPI.Controllers
     [Route("[controller]")]
     public class SuperHeroController : Controller
     {
-       
+        [HttpGet]
+        public async Task<ActionResult<List<SuperHero>>> GetSuperHeroes(){
+            return new List<SuperHero>
+            {
+                new SuperHero
+                {
+                    Name = "Superman",
+                    FirstName = "Clark",
+                    LastName = "Kent",
+                    Place = "Metropolis"
+                }
+            };
+        }
     }
 }
