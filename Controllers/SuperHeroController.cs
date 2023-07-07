@@ -21,11 +21,20 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpGet]
-       [HttpGet]
         [ProducesResponseType(typeof(List<SuperHero>), 200)]
         public async Task<ActionResult<List<SuperHero>>> GetSuperHeroes()
         {
           return Ok(await _context.SuperHeroes.ToListAsync());
         }
+
+          [HttpPost]
+          [ProducesResponseType(typeof(SuperHero), 201)]
+          public async Task<ActionResult<SuperHero>> CreateSuperHero(SuperHero hero)
+          {
+              _context.SuperHeroes.Add(hero);
+              await _context.SaveChangesAsync();
+              return Ok(await _context.SuperHeroes.ToListAsync());
+          }
+
     }
 }
