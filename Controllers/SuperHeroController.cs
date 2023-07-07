@@ -21,17 +21,11 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<SuperHero>>> GetSuperHeroes(){
-            return new List<SuperHero>
-            {
-                new SuperHero
-                {
-                    Name = "Superman",
-                    FirstName = "Clark",
-                    LastName = "Kent",
-                    Place = "Metropolis"
-                }
-            };
+       [HttpGet]
+        [ProducesResponseType(typeof(List<SuperHero>), 200)]
+        public async Task<ActionResult<List<SuperHero>>> GetSuperHeroes()
+        {
+          return Ok(await _context.SuperHeroes.ToListAsync());
         }
     }
 }
