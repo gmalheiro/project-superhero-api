@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+        "outputPath": "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

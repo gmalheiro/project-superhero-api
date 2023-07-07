@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X6Pdi2sBWIWC0jxaJyUAjeqe2k4pvnNB8tCiAgk8zxBf0LLvJVZFMXWE74Uq/xco9JBLXTaa1uLy7LUIIqsHaQ==",
+  "dgSpecHash": "nGR28D6zc0Z48yAHrPmGGwH1bT5YwiZ13pmFs+nbTughgP9ynlFUgc3BsyAZJwC2RPsfSTLpMP3pgPMgti1QXA==",
   "success": true,
-  "projectFilePath": "F:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+  "projectFilePath": "f:\\A Projects\\Full-stack\\Supa\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
